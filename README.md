@@ -29,8 +29,8 @@ A continuación se describe que debe contener cada paquete del arquetipo base pr
 
 ## 📋 Para generar el Reporte 📋
 
-Ejecute de forma manual el escenario a validar atra vez del Runner especifico, luego de que el escenario o los escenario se ejecutaron, por la terminal puede ser de su IDE ejecute el siguiente comando:
+Ejecute de forma manual el escenario a validar a través del Runner especifico, luego de que el escenario o los escenario se ejecutaron, ingrese a la terminal de comandos puede ser de su IDE y ejecute el siguiente comando:
 
       mvn pre-clean post-integration-test
 
-Segenerará el reporte en la carpeta **/target/site/serenity/**, archivo **_index.htlm_**
+Se generará el reporte en la carpeta **/target/site/serenity/**, archivo **_index.htlm_**
