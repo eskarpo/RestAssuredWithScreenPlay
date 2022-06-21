@@ -9,8 +9,8 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 
-import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
-import static utils.contants.General.BASE_URL_API;
+import static contants.General.BASE_URL_API;
+
 
 public class ConfigurarEscenarios {
     @Before

@@ -4,21 +4,19 @@ import exceptions.EmployeeException;
 import io.cucumber.java.DataTableType;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Entonces;
-import models.DataEmployee;
 import models.DeleteDataEmployee;
 import questions.ValidateElimination;
-import questions.ValidateEmployee;
-import tasks.ConsultEmployee;
 import tasks.DeleteEmployee;
 
 import java.util.Map;
 
+import static contants.General.CLIENTE;
 import static exceptions.EmployeeException.MESSAGE;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;
-import static utils.contants.General.CLIENTE;
+
 
 public class DeleteEmployeeStepDefinition {
 

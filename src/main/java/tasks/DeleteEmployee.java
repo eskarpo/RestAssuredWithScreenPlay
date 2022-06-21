@@ -7,10 +7,11 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.rest.interactions.Delete;
 
+import static contants.General.CLIENTE;
+import static contants.General.KEY;
+import static contants.General.PATH_DELETE_EMPLOYEE_ID;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
-import static utils.contants.General.CLIENTE;
-import static utils.contants.General.KEY;
-import static utils.contants.General.PATH_DELETE_EMPLOYEE_ID;
+
 
 
 public class DeleteEmployee implements Task {

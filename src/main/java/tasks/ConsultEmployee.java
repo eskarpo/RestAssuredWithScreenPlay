@@ -7,8 +7,8 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.rest.interactions.Get;
 
-import static utils.contants.General.PATH_GET_EMPLOYEES;
-import static utils.contants.General.PATH_GET_EMPLOYEE_ID;
+import static contants.General.PATH_GET_EMPLOYEES;
+import static contants.General.PATH_GET_EMPLOYEE_ID;
 
 
 public class ConsultEmployee implements Task {

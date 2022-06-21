@@ -9,13 +9,14 @@ import tasks.CreateEmployee;
 
 import java.util.Map;
 
+import static contants.General.CLIENTE;
+import static contants.General.KEY;
 import static exceptions.EmployeeException.MESSAGE;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;
-import static utils.contants.General.KEY;
-import static utils.contants.General.CLIENTE;
+
 
 public class CreateEmployeeStepDefinition{
 

@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.rest.interactions.Post;
 
-import static utils.contants.General.PATH_CREATE_EMPLOYEE;
+import static contants.General.PATH_CREATE_EMPLOYEE;
 
 
 public class CreateEmployee implements Task {

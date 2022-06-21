@@ -6,15 +6,16 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import org.apache.http.HttpStatus;
 
+import static contants.General.DATA;
+import static contants.General.KEY;
+import static contants.General.NAME;
+import static contants.General.SALARY;
+import static contants.General.AGE;
 import static io.restassured.path.json.JsonPath.from;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
-import static utils.contants.General.AGE;
-import static utils.contants.General.DATA;
-import static utils.contants.General.KEY;
-import static utils.contants.General.NAME;
-import static utils.contants.General.SALARY;
+
 
 public class ValidateCreation implements Question<Boolean> {
 

@@ -7,9 +7,10 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import org.apache.http.HttpStatus;
 
+import static contants.General.KEY;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
-import static utils.contants.General.KEY;
+
 
 public class ValidateElimination implements Question<Boolean> {
 

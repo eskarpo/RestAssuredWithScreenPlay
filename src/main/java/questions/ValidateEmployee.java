@@ -8,15 +8,16 @@ import org.apache.http.HttpStatus;
 
 import java.util.List;
 import java.util.Map;
-import static io.restassured.path.json.JsonPath.from;
 
+import static contants.General.DATA;
+import static contants.General.EMPLOYEE_AGE;
+import static contants.General.EMPLOYEE_NAME;
+import static contants.General.EMPLOYEE_SALARY;
+import static contants.General.ID;
+import static io.restassured.path.json.JsonPath.from;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
-import static utils.contants.General.DATA;
-import static utils.contants.General.EMPLOYEE_AGE;
-import static utils.contants.General.EMPLOYEE_NAME;
-import static utils.contants.General.EMPLOYEE_SALARY;
-import static utils.contants.General.ID;
+
 
 public class ValidateEmployee implements Question<Boolean> {
 
