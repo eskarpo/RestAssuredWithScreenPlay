@@ -1,5 +1,5 @@
 #language: es
-Característica: Validar información de emepleados
+Característica: Validar información de empleados
   Yo como automatizador
   Necesito verificar los empleados de restapiexample
   Para asugurar que la informción es correcta
